@@ -60,9 +60,34 @@
     background: rgba(112, 81, 176, 0.9);
 }
 
+.carousel-item p {
+    font-size: 20px !important;
+}
+
 @media (max-width: 500px){
     .section-developers
     .section-podcast {
         min-height: 240px;
     }
+}
+
+.main-header-inner {
+    background: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    color: #fff;
+}
+
+.main-header-inner .showcase {
+    padding-top: 50px;
+}
+
+.tabs .indicator {
+    background-color: #6a1b9a !important;
+}
+
+.section-signup .btn-extend {
+    display: block;
+    width: 100%;
 }
